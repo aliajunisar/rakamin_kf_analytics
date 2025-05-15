@@ -24,7 +24,7 @@ SELECT
     WHEN ft.price > 50000 AND ft.price <= 100000 THEN 0.15
     WHEN ft.price > 100000 AND ft.price <= 300000 THEN 0.20
     WHEN ft.price > 300000 AND ft.price <= 500000 THEN 0.25
-    ELSE 30
+    ELSE 0.30
   END AS persentase_gross_laba,
 
 FROM
